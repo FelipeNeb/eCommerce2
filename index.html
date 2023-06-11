@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>eCommerce2</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="cabecalho" style="display: flex; background-color: grey;height: 110px;">
+    <div class="titulo-e-nome" style="width: 70%;">
+      <h1 style="height: 50%;">Loja FakeStore <p></p> </h1>
+      Desenvolvido por: Felipe S Nébias </br>
+    Curso: Engenharia de Software / 771834 </br>
+    </div>
+    
+    <div class="filtro-pesquisa" style="width: 30%;">
+      <div class="filter-section" style="display: flex; align-items: center;">
+        <label for="filtro">Filtrar por categoria:</label>
+        <select id="filtro">
+          <option value="todos">Todos</option>
+        </select>
+        <button id="btn-filtrar">Filtrar</button>
+      </div>
+    
+      <div class="search-section" style="display: flex; align-items: center;">
+        <input type="text" id="pesquisa" placeholder="Digite uma categoria">
+        <button id="btn-pesquisar">Pesquisar</button>
+      </div>
+    </div>
+    
+
+  </div>
+  
+
+  <div class="container">
+    <div class="row products">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
